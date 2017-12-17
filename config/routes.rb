@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  root 'application#hello'
+  resources :cryptos
+  root 'cryptos#index'
+
+  # Serve websocket cable requests in-process
+  mount ActionCable.server => 'wss://api.bitfinex.com/ws/2'
 end

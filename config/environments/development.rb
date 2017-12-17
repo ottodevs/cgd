@@ -48,4 +48,7 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  #Sets up websocket connection to bitfinex
+  config.action_cable.url = "wss://api.bitfinex.com/ws/2"
 end
