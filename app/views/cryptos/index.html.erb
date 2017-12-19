@@ -7,8 +7,16 @@
           <th>Symbol</th>
           <th>Ticker</th>
           <th>Name</th>
-          <th>Bitfinex Price</th>
-          <th>Bitfinex Change %</th>
+          <th>Coinbase</th>
+          <th>24hr %</th>
+          <th>Bitstamp</th>
+          <th>24hr %</th>
+          <th>Bitfinex</th>
+          <th>24hr %</th>
+          <th>Poloniex</th>
+          <th>24hr %</th>
+          <th>BitTrex</th>
+          <th>24hr %</th>
         </tr>
       </thead>
     </table>
@@ -19,50 +27,91 @@
         <td><%= image_tag ("bitcoin.png")%></td>
         <td>BTC</td>
         <td>Bitcoin</td> 
-        <td id="btcPrice"></td>
-        <td id="btcPercentChange"></td>
+        <td id="PRICE_Coinbase_BTC"></td>
+        <td id="CHANGE24HOURPCT_Coinbase_BTC"></td>
+        <td id="PRICE_Bitstamp_BTC"></td>
+        <td id="CHANGE24HOURPCT_Bitstamp_BTC"></td>
+        <td id="PRICE_Bitfinex_BTC"></td>
+        <td id="CHANGE24HOURPCT_Bitfinex_BTC"></td>
+        <td id="PRICE_Poloniex_BTC"></td>
+        <td id="CHANGE24HOURPCT_Poloniex_BTC"></td>
+        <td id="PRICE_BitTrex_BTC"></td>
+        <td id="CHANGE24HOURPCT_BitTrex_BTC"></td>
       </tr>
       <tr>
         <td><%= image_tag ("ethereum.png")%></td>
         <td>ETH</td>
         <td>Ethereum</td> 
-        <td id="ethPrice"></td>
-        <td id="ethPercentChange"></td>
-      </tr>
-      <tr>
-        <td><%= image_tag ("bitcoincash.png")%></td>
-        <td>BCH</td>
-        <td>Bitcoin Cash</td> 
-        <td id="bchPrice"></td>
-        <td id="bchPercentChange"></td>
+        <td id="PRICE_Coinbase_ETH"></td>
+        <td id="CHANGE24HOURPCT_Coinbase_ETH"></td>
+        <td id="PRICE_Bitstamp_ETH"></td>
+        <td id="CHANGE24HOURPCT_Bitstamp_ETH"></td>
+        <td id="PRICE_Bitfinex_ETH"></td>
+        <td id="CHANGE24HOURPCT_Bitfinex_ETH"></td>
+        <td id="PRICE_Poloniex_ETH"></td>
+        <td id="CHANGE24HOURPCT_Poloniex_ETH"></td>
+        <td id="PRICE_BitTrex_ETH"></td>
+        <td id="CHANGE24HOURPCT_BitTrex_ETH"></td>
       </tr>
       <tr>
         <td><%= image_tag ("litecoin.png")%></td>
         <td>LTC</td>
         <td>Litecoin</td> 
-        <td id="ltcPrice"></td>
-        <td id="ltcPercentChange"></td>
+        <td id="PRICE_Coinbase_LTC"></td>
+        <td id="CHANGE24HOURPCT_Coinbase_LTC"></td>
+        <td id="PRICE_Bitstamp_LTC"></td>
+        <td id="CHANGE24HOURPCT_Bitstamp_LTC"></td>
+        <td id="PRICE_Bitfinex_LTC"></td>
+        <td id="CHANGE24HOURPCT_Bitfinex_LTC"></td>
+        <td id="PRICE_Poloniex_LTC"></td>
+        <td id="CHANGE24HOURPCT_Poloniex_LTC"></td>
+        <td id="PRICE_BitTrex_LTC"></td>
+        <td id="CHANGE24HOURPCT_BitTrex_LTC"></td>
+      </tr>
+      <tr>
+        <td><%= image_tag ("bitcoincash.png")%></td>
+        <td>BCH</td>
+        <td>Bitcoin Cash</td> 
+        <td id="PRICE_Coinbase_BCH"></td>
+        <td id="CHANGE24HOURPCT_Coinbase_BCH"></td>
+        <td id="PRICE_Bitstamp_BCH"></td>
+        <td id="CHANGE24HOURPCT_Bitstamp_BCH"></td>
+        <td id="PRICE_Bitfinex_BCH"></td>
+        <td id="CHANGE24HOURPCT_Bitfinex_BCH"></td>
+        <td id="PRICE_Poloniex_BCH"></td>
+        <td id="CHANGE24HOURPCT_Poloniex_BCH"></td>
+        <td id="PRICE_BitTrex_BCH"></td>
+        <td id="CHANGE24HOURPCT_BitTrex_BCH"></td>
       </tr>
       <tr>
         <td><%= image_tag ("ripple.png")%></td>
         <td>XRP</td>
         <td>Ripple</td> 
-        <td id="xrpPrice"></td>
-        <td id="xrpPercentChange"></td>
+        <td id="PRICE_Coinbase_XRP"></td>
+        <td id="CHANGE24HOURPCT_Coinbase_XRP"></td>
+        <td id="PRICE_Bitstamp_XRP"></td>
+        <td id="CHANGE24HOURPCT_Bitstamp_XRP"></td>
+        <td id="PRICE_Bitfinex_XRP"></td>
+        <td id="CHANGE24HOURPCT_Bitfinex_XRP"></td>
+        <td id="PRICE_Poloniex_XRP"></td>
+        <td id="CHANGE24HOURPCT_Poloniex_XRP"></td>
+        <td id="PRICE_BitTrex_XRP"></td>
+        <td id="CHANGE24HOURPCT_BitTrex_XRP"></td>
       </tr>
       <tr>
         <td><%= image_tag ("monero.png")%></td>
         <td>XMR</td>
         <td>Monero</td> 
-        <td id="xmrPrice"></td>
-        <td id="xmrPercentChange"></td>
-      </tr>
-      <tr>
-        <td><%= image_tag ("iota.png")%></td>
-        <td>IOTA</td>
-        <td>Iota</td> 
-        <td id="iotaPrice"></td>
-        <td id="iotaPercentChange"></td>
+        <td id="PRICE_Coinbase_XMR"></td>
+        <td id="CHANGE24HOURPCT_Coinbase_XMR"></td>
+        <td id="PRICE_Bitstamp_XMR"></td>
+        <td id="CHANGE24HOURPCT_Bitstamp_XMR"></td>
+        <td id="PRICE_Bitfinex_XMR"></td>
+        <td id="CHANGE24HOURPCT_Bitfinex_XMR"></td>
+        <td id="PRICE_Poloniex_XMR"></td>
+        <td id="CHANGE24HOURPCT_Poloniex_XMR"></td>
+        <td id="PRICE_BitTrex_XMR"></td>
+        <td id="CHANGE24HOURPCT_BitTrex_XMR"></td>
       </tr>
     </table>
   </div>
