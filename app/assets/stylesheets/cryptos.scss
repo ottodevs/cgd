@@ -8,6 +8,13 @@ table{
   height:482px;
   margin-top: 0px;
 }
+a:link { 
+    color: black;
+    text-decoration:none; 
+}
+a:link:hover {
+  background-color: transparent;
+}
 tbody{
   tr:hover {
     background: #DCDCDC;
