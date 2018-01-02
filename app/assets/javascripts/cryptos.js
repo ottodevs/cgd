@@ -7,8 +7,8 @@ $(document).ready(function() {
   //For aggregate quote updates use CCCAGG as market
   var subscription = ['2~Bitfinex~BTC~USD', '2~Bitfinex~ETH~USD', '2~Bitfinex~BCH~USD',
   '2~Bitfinex~LTC~USD', '2~Bitfinex~XRP~USD', '2~Bitfinex~XMR~USD', '2~Bitfinex~DASH~USD', '2~Bitfinex~ETC~USD', '2~Coinbase~BCH~USD',
-  '2~Coinbase~ETH~USD', '2~Coinbase~BTC~USD', '2~Coinbase~LTC~USD','2~Coinbase~XRP~USD',,'2~Coinbase~XMR~USD','2~Coinbase~DASH~USD','2~Coinbase~ETC~USD', '2~Bitstamp~BTC~USD',
-  '2~Bitstamp~ETH~USD', '2~Bitstamp~BCH~USD', '2~Bitstamp~LTC~USD', '2~Bitstamp~XRP~USD','2~Bitstamp~XMR~USD','2~Bitstamp~DASH~USD','2~Bitstamp~ETC~USD',
+  '2~Coinbase~ETH~USD', '2~Coinbase~BTC~USD', '2~Coinbase~LTC~USD', '2~Bitstamp~BTC~USD',
+  '2~Bitstamp~ETH~USD', '2~Bitstamp~BCH~USD', '2~Bitstamp~LTC~USD', '2~Bitstamp~XRP~USD',
   '2~Poloniex~BTC~USD', '2~Poloniex~ETH~USD', '2~Poloniex~BCH~USD','2~Poloniex~DASH~USD','2~Poloniex~ETC~USD',
   '2~Poloniex~LTC~USD', '2~Poloniex~XRP~USD', '2~Poloniex~XMR~USD' ,'2~BitTrex~BTC~USD', 
   '2~BitTrex~ETH~USD', '2~BitTrex~BCH~USD', '2~BitTrex~LTC~USD', '2~BitTrex~XRP~USD', '2~BitTrex~XMR~USD','2~BitTrex~DASH~USD','2~BitTrex~ETC~USD','2~Kraken~BTC~USD', 
